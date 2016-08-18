@@ -29,10 +29,28 @@ nav.navbar.navbar-default {
     font-family: Helvetica Neue;
 }
 
+
+@media screen and (max-width: 1015px) {
+    
+   .nav.navbar-nav li a {
+    color:red;
+    margin: 0 20px!important; 
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+   .nav.navbar-nav li a {
+    color:red;
+    margin: 0 10px!important; 
+
+    }
+}
+
 .nav.navbar-nav li a {
     color: #A9B9BF;
     margin: 0 40px;
-    
     transition: color 0.2s;
     -o-transition: color 0.2s;
     -moz-transition: color 0.2s;
@@ -517,7 +535,6 @@ height: 400px
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	width: 100%;
 	color: #6b969d;
 }
 .rw-words-1 span{
