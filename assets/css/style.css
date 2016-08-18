@@ -27,10 +27,12 @@ nav.navbar.navbar-default {
     float: none;
     vertical-align: top;
     font-family: Helvetica Neue;
+    text-transform: lowercase;
+    letter-spacing: 2px;
 }
 
 
-@media screen and (max-width: 1015px) {
+@media (max-width: 1015px) {
     
    .nav.navbar-nav li a {
     color:red;
@@ -39,7 +41,7 @@ nav.navbar.navbar-default {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     
    .nav.navbar-nav li a {
     color:red;
@@ -48,6 +50,10 @@ nav.navbar.navbar-default {
     }
 }
 
+.nav>li>a {
+    padding: 0!important;
+    padding-top: 15px!important;
+}
 .nav.navbar-nav li a {
     color: #A9B9BF;
     margin: 0 40px;
