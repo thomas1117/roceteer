@@ -391,6 +391,13 @@ a.learn-more h4 {
     margin: 0;
 }
 
+#content-2 {
+    display: none;
+}
+#content-3 {
+    display: none;
+}
+
 .content-wrapper.button {
     text-align: center;
 }
