@@ -1,0 +1,26 @@
+@charset "UTF-8";h2{font-size:2em;text-align:center;margin:0;}
+h5{text-align:center;}
+.tw-widget2{max-width:960px;}
+.container ul{list-style:none;margin:0;padding:0;}
+.example1{position:relative;background:#244b5c;padding:1em 0;}
+.example1 h2{}
+.example1:before, .example1:after{content:"";position:absolute;background:#244b5c;top:0;bottom:0;width:9999px;}
+.example1:before{right:100%;}
+.example1:after{left:100%;}
+#tw-widget2:after{content:"";display:table;clear:both;}
+#tw-widget2 li{width:80%;margin:0 auto;float:none;}
+@media (min-width:48em){#tw-widget2 li{width:calc(100%/3);float:left;}
+}
+#tw-widget2 a{text-decoration:none;}
+#tw-widget2 .user{padding:20px 20px 16px;}
+#tw-widget2 .user a span{display:block;text-align:left;color:white;font-weight:bold;}
+#tw-widget2 .user a img[data-scribe="element:avatar"]{display:none;}
+#tw-widget2 .user a span[data-scribe="element:name"]{font-size:20px;}
+#tw-widget2 .user a span[data-scribe="element:screen_name"]{font-size:14px;color:white;}
+#tw-widget2 .tweet{margin:0;padding:10px 20px;color:white;}
+#tw-widget2 .tweet a{font-weight:bold;text-decoration:none;color:white;}
+#tw-widget2 .tweet a[data-scribe="element:url"]{text-decoration:underline;}
+#tw-widget2 .tweet a[data-scribe="element:hashtag"]{color:#ecf0f1;}
+#tw-widget2 .tweet img[aria-label^="Emoji"]{max-height:14px;}
+#tw-widget2 .timePosted{margin:0;padding:0 20px;font-size:14px;text-align:left;}
+#tw-widget2 .timePosted:before{font-family:"Fontawesome";-webkit-font-smoothing:antialiased;content:"";padding-right:4px;}

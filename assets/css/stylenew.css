@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+
+@font-face {
+    font-family: Helvetica Neue Bold;
+    src: url("../fonts/HelveticaNeueBold.ttf");
+}
+
+nav.navbar.navbar-default {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 0;
+    background-color: #232527;
+    border: none;
+    margin: 0;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-family: Helvetica Neue;
+}
+
+.nav.navbar-nav li a {
+    color: #A9B9BF;
+    margin: 0 40px;
+    
+    transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+.nav.navbar-nav li a:hover {
+    color: #fff;
+}
+
+.nav.navbar-nav li a.active {
+    color: #fff;
+}
+
+.nav.navbar-nav li a.navbar-brand {
+    margin: 0 40px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.header {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+.header.mission-control.old {
+    background-image: url(../imgs/bg_mission-control.png);
+    height: 120%;
+}
+
+.header.service {
+    background-image: url(../imgs/bg_service.png);
+}
+
+.header.crew {
+    background-image: url(../imgs/bg_crew.png);
+}
+
+.header.case-studies {
+    background-image: url(../imgs/bg_189-case-studies.png);
+}
+
+.header.transcend-awesome {
+    background-image: url(../imgs/bg_transcend-awesome.png);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1{
+    margin: 0;
+    font-family: Helvetica Neue Bold;
+    color: #264C5B;
+}
+
+.mission-control .container {
+    padding: 50px 200px;
+    font-family: Helvetica Neue Bold;
+}
+
+.mission-control .container h1 {
+    margin-bottom: 30px;
+    color: #A9B9BF;
+}
+
+.mission-control .container h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.keywords {
+    color: #52ADCE;
+}
+
+h3.grey {
+    color: #A9B9BF;
+}
+
+.content-page h1 {
+    font-family: Helvetica Neue Bold;
+    color: #264C5B;
+    text-align: center;
+}
+
+.content-page.mission {
+    padding: 50px 0 0 0;
+    background-color: #52ADCE;
+}
+
+.content-page.mission h1 {
+    margin-bottom: 25px;
+}
+
+.content-page.mission h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.serves {
+    padding: 50px 0;
+}
+
+.box {
+    padding: 0;
+}
+
+.box.center {
+    padding: 0 10px;
+}
+
+.opacity {
+    background-color: #D5DADD;
+}
+
+.serve {
+    text-align: center;
+    padding: 5px 15px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.serve:hover {
+    opacity: 1 !important;
+}
+
+.serve.active {
+    opacity: 1 !important;
+}
+
+.serve.active:hover {
+    cursor: default;
+}
+
+.serve.human {
+    background-image: url(../imgs/mission-control/human.png);
+}
+
+.serve.development {
+    background-image: url(../imgs/mission-control/development.png);
+}
+
+.serve.ecosystems {
+    background-image: url(../imgs/mission-control/ecosystems.png);
+}
+
+.serve h2 {
+    font-family: Helvetica Neue Bold;
+    color: #264C5B !important;
+}
+
+.serve h4 {
+    color: #264C5B !important;
+}
+
+.content-wrapper {
+    padding: 50px 15px;
+    background-color: #fff;
+}
+
+.content-wrapper.line {
+    border-bottom: 2px dashed #333;
+}
+
+.content-wrapper h2 {
+    font-family: Helvetica Neue Bold;
+    color: #264C5B;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+.content .column {
+    text-align: center;
+}
+
+.content .column h4 {
+    font-family: Helvetica Neue Bold;
+    color: #5d5d5d;
+}
+
+.content .column ul {
+    margin-bottom: 50px;
+}
+
+.content .column ul li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content .column ul li a {
+    text-decoration: none;
+    color: #264c5b;
+}
+
+.content .column ul li a:hover {
+    border-bottom: 1px solid #264c5b;
+}
+
+a.learn-more {
+    text-decoration: none;
+    font-family: Helvetica Neue Bold;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #52adce;
+    border-radius: 4px;
+    color: #264c5b;
+    
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+a.learn-more:hover {
+    color: #fff;
+    background-color: #52adce;
+}
+
+a.learn-more h4 {
+    margin: 0;
+}
+
+.content-wrapper.button {
+    text-align: center;
+}
+
+.content-wrapper.button .content a {
+    text-decoration: none;
+    font-family: Helvetica Neue Bold;
+    color: #fff;
+    background-color: #e12226;
+    padding: 15px;
+    border-radius: 4px;
+    
+    transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+}
+
+.content-wrapper.button .content a:hover {
+    background-color: #c11e26;
+}
+
+.content-wrapper.featured {
+    background-color: #264c5b;
+    text-align: center;
+    font-family: Helvetica Neue Bold;
+}
+
+.content-wrapper.featured h2 {
+    color: #fff;
+}
+
+.logos {
+    margin-top: 15px;
+}
+
+.logos img {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.content-wrapper.community {
+    text-align: center;
+    color: #264c5b;
+}
+
+.content-wrapper.community h3 {
+    margin-bottom: 50px;
+}
+
+.content-wrapper.community a {
+    text-decoration: none;
+    font-family: Helvetica Neue Bold;
+    color: #fff;
+    background-color: #e12226;
+    padding: 15px;
+    border-radius: 4px;
+    
+    transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+}
+
+.content-wrapper.community a:hover {
+    background-color: #c11e26;
+}
+
+.community-background {
+    background-image: url(../imgs/mission-control/community.png);
+    background-size: contain;
+    height: 70%;
+    background-repeat: no-repeat;
+}
+
+.content-wrapper.hangout {
+    background-color: #232527;
+}
+
+.content-wrapper.hangout h2 {
+    color: #fff;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 768px) {
+    a.navbar-brand {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        margin-bottom: 25px;
+    }
+    
+    .navbar.navbar-default {
+        padding: 15px 0 !important;
+    }
+    
+    .nav.navbar-nav li a.navbar-brand {
+        display: none;
+    }
+    
+    .header {
+        background-size: cover;
+    }
+    
+    .mission-control .container {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .mission-control .container h1, .mission-control .container h3, .keywords {
+        color: #fff;
+    }
+    
+    .content-page.mission {
+        padding: 0;
+    }
+    
+    .container {
+        padding: 0;
+    }
+    
+    .box.center {
+        padding: 0;
+    }
+    
+    .serves {
+        padding: 0;
+    }
+    
+    .col-md-4.column {
+        margin-top: 50px;
+    }
+    
+    .community-background {
+        display: none;
+    }
+}

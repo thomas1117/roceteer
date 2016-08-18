@@ -1,0 +1,256 @@
+
+.starter-template{padding:40px 15px;text-align:center;}
+.header{position:relative;}
+.home .header{height:669px;background:url(../images/home-top.png) no-repeat #244b5c;margin:0;}
+.entrepreneur .header{height:430px;background:url(../images/entrepreneur-top.png) no-repeat #244b5c;margin:0;}
+.mission .header{height:420px;background:url(../images/mission-top.png) no-repeat #a1c9d5;margin:0;}
+.crew .header{height:420px;background:url(../images/crew-top.png) no-repeat #a1c9d5;margin:0;}
+.contact .header{height:420px;background:#a1c9d5;margin:0;}
+.blog .header, .single .header{height:420px;background:url(../images/blog-top.png) no-repeat #a1c9d5;margin:0;}
+.navbar-inverse{border:none;background:none;}
+.home .header h1{font-size:31px;color:white;font-weight:bold;text-align:center;}
+.mission .header h1,.crew .header h1,.entrepreneur .header h1,.contact .header h1,.blog .header h1,.single .header h1{font-size:35px;color:white;font-weight:bold;text-align:center;}
+.home .header .top-buffer-1{margin-top:150px;}
+.entrepreneur .header .top-buffer-1,.mission .header .top-buffer-1,.crew .header .top-buffer-1,.contact .header .top-buffer-1,.blog .header .top-buffer-1,.single .header .top-buffer-1{margin-top:140px;}
+.blog .header .top-buffer-1,.single .header .top-buffer-1{margin-top:180px;}
+.home .header .right-buffer-1{margin-right:90px;}
+.entrepreneur .header .right-buffer-1{margin-right:100px;}
+.header .left-buffer-1{margin-right:150px;}
+.header .top-buffer-2{margin-top:40px;}
+.nav li a{padding:0 0 5px;margin:20px;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{color:#fff;background:none;}
+.navbar-inverse .navbar-nav > .active > a{border-bottom:2px solid red;background:none;}
+.header .btn{width:185px;height:50px;font-weight:bold;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;font-size:16px;background:#3fabd1;}
+.header .btn:hover, .footer .btn:hover{background:#40bfe2;}
+.home .content-1 .top-buffer-1{margin-top:68px;}
+.entrepreneur .content-1 .top-buffer-1{margin-top:137px;}
+.mission .content-1 .top-buffer-1,.crew .content-1 .top-buffer-1,.contact .content-1 .top-buffer-1{margin-top:100px;}
+.entrepreneur .content-1 .top-buffer-2{margin-top:90px;}
+.mission .content-1 .top-buffer-2{margin-top:60px;}
+.content-1 .bottom-buffer-1{margin-bottom:80px;}
+.content-2 .top-buffer-1{margin-top:80px;}
+.content-2 .bottom-buffer-1{margin-bottom:80px;}
+.content-2 .top-buffer-2{margin-top:50px;}
+.content-1 h1,.content-1 h2,.content-1 h3,.content-2 h1,.content-2 h2,.content-2 h3{color:#244b5c;font-weight:bold;}
+.content-1 p,.content-2 p{color:#244b5c;}
+.content-2 p{padding:0 35px;}
+.content-2{background:#f2f2f2;}
+.footer{background:#4D4D4D}
+.footer .top-buffer-1{margin-top:60px;}
+.footer .bottom-buffer-1{margin-bottom:60px;}
+.footer .divider{height:120px;border-left:#666 solid 1px;}
+.footer p{color:#808080;}
+.footer a{color:#c4c4c4;}
+.social{background:#999999;margin-right:5px;border-radius:14px;width:28px;height:28px;display:inline-block;}
+.social img{margin:7px 4px;width:20px;}
+.social-small{background:#244b5c;padding-top:3px;margin-right:5px;border-radius:10px;width:20px;height:20px;display:inline-block;}
+.social-small img{width:15px;margin-top:2px;}
+.social-small img.linkedin{width:12px;margin-top:1px;margin-bottom:1px;}
+.social-small img.youtube{width:12px;margin-top:3px;margin-bottom:3px;}
+.footer .btn, .footer .form-control{display:inline-block;height:50px;}
+.footer p{font-size:14px;}
+.footer .btn{margin-top:-2px;padding:6px 18px;background:#3fabd1;}
+.footer .form-control{width:185px;margin-right:10px;}
+.navbar-brand{padding-left:60px;padding-top:20px;}
+.crew .content-1 img.portrait{width:150px;border-radius:75px;}
+.crew .content-1 p{line-height:28px;font-size:16px;}
+.contact .content-1 a,.contact .content-2 a{color:red;}
+.contact .content-1 input,.contact .content-1 textarea{border-radius:2px;background:#A1C9D5;border:none;margin-bottom:5px;color:#666666;}
+.contact .content-1 input[type=text]{height:60px;}
+.contact .content-1 .btn{background:red;height:60px;border:none;padding:0 30px;border-radius:2px;width:100%;}
+.contact .content-1 .btn:hover{background:#f71111;}
+.contact .content-1 .row div{padding:3px 5px;}
+.contact .content-1::-webkit-input-placeholder{color:#244b5c;}
+.contact .content-1:-moz-placeholder{color:#244b5c;}
+.contact .content-1::-moz-placeholder{color:#244b5c;}
+.contact .content-1:-ms-input-placeholder{color:#244b5c;}
+.navbar-inverse .navbar-nav > li > a{color:#ffffff;}
+.header:before,.content-2:before, .footer:before{right:100%;}
+.header:after,.content-2:after, .footer:after{left:100%;}
+.home .header:before,
+.home .header:after,
+.entrepreneur .header:before,
+.entrepreneur .header:after{content:"";position:absolute;background:#244b5c;top:0;bottom:0;width:9999px;}
+.mission .header:before,
+.mission .header:after{content:"";position:absolute;background:#a1c9d5;top:0;bottom:0;width:9999px;}
+.mission .header:before,
+.mission .header:after,
+.crew .header:before,
+.crew .header:after,
+.blog .header:before,
+.blog .header:after,
+.single .header:before,
+.single .header:after,
+.contact .header:before,
+.contact .header:after{content:"";position:absolute;background:#a1c9d5;top:0;bottom:0;width:9999px;}
+.error{color:red;text-align:center;font-size:20px;}
+.success{text-align:center;font-size:20px;}
+.content-2,.footer{position:relative;}
+.content-2:before,
+.content-2:after{content:"";position:absolute;background:#f2f2f2;top:0;bottom:0;width:9999px;}
+.footer:before,
+.footer:after{content:"";position:absolute;background:#4d4d4d;top:0;bottom:0;width:9999px;}
+.home .scrolled, .entrepreneur .scrolled,.legal .navbar{background:#244b5c;}
+.mission .scrolled, .crew .scrolled,.blog .scrolled,.single .scrolled, .contact .scrolled{background:#a1c9d5;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border:none;}
+.home .scrolled .navbar-brand,.home.blog .navbar-brand,.home.single .navbar-brand{display:block;}
+.scrolled .navbar-brand img,.legal .navbar-brand img{width:83px;}
+.navbar-brand{padding-left:20px;}
+.legal .content-1{padding-top:100px;color:#244b5c;line-height:24px;padding-bottom:40px;}
+.legal h6{font-size:18px;}
+.legal h1,h2,h3,h4,h5,h6{margin:20px 0;}
+.legal h2{margin-bottom:40px;}
+.copyright-mobile{display:none;}
+.mission #header-foreground-1{left:200px;}
+.mission #header-foreground-2{right:200px;}
+.mission #header-foreground{left:100px;}
+.blog #header-foreground-1,.single #header-foreground-1{left:282px;top:64px;}
+.blog #header-foreground-2,.single #header-foreground-2{right:200px;bottom:0;}
+.entrepreneur #header-foreground{left:0;bottom:0;}
+.contact #header-foreground{left:120px;bottom:0;}
+.navbar-inverse .navbar-toggle{border:none;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border:none;}
+.button-container{display:inline-block;}
+.footer-logo{padding-left:60px;}
+@media (max-width:1200px){.home #header-foreground{left:-166px;}
+.header .btn{font-size:14px;width:130px;}
+.entrepreneur #header-foreground{left:-60px;top:76px;bottom:inherit;height:354px;overflow:hidden;}
+.entrepreneur .header .right-buffer-1{margin-right:17px;}
+.mission #header-foreground-1{left:115px;}
+.mission #header-foreground-2{right:75px;}
+.crew #header-foreground{left:-50px;}
+.blog #header-foreground-1,.single #header-foreground-1{left:70px;}
+.blog #header-foreground-2,.single #header-foreground-2{right:70px;}
+.contact #header-foreground{left:0;}
+.footer .form-control{width:158px;}
+}
+@media (max-width:992px){.navbar-inverse .navbar-nav > li > a{font-size:12px;margin:15px;}
+.right-buffer-1{margin:0;}
+.home .content-1 .top-buffer-1, .entrepreneur .content-1 .top-buffer-1, .ecosystem .content-1 .top-buffer-1{margin-top:20px;}
+.content-1 .bottom-buffer-1{margin-bottom:20px;}
+.footer .bottom-buffer-1,.footer .top-buffer-1{margin:0;padding-top:20px;padding-bottom:20px;}
+.content-2 .bottom-buffer-1{margin:0;padding-bottom:40px;}
+.home .header, .mission .header{height:720px;}
+.crew .header,.blog .header,.single .header, .contact .header,.entrepreneur .header{height:600px;}
+.home .header .top-buffer-1, .entrepreneur .header .top-buffer-1, .mission .header .top-buffer-1, .crew .header .top-buffer-1, .contact .header .top-buffer-1{margin:0;padding-top:80px;}
+.scrolled .navbar-brand img, .legal .navbar-brand img{width:54px;}
+.home #header-foreground,.home #header-foreground-1,.home #header-foreground-2{max-width:100%;max-height:100%;}
+.divider{display:none;}
+.copyright{display:none;}
+.copyright-mobile{display:block;margin-top:20px;}
+.mission #header-foreground-1{left:100px;}
+.mission #header-foreground-2{right:100px;}
+.crew #header-foreground{left:0;}
+.blog .header .top-buffer-1, .single .header .top-buffer-1{margin:0;padding-top:180px;}
+.blog #header-foreground-1,.single #header-foreground-1{left:100px;top:64px;}
+.blog #header-foreground-2,.single #header-foreground-2{right:200px;bottom:0;}
+.entrepreneur #header-foreground{top:inherit;bottom:0;}
+.footer .form-control{width:158px;}
+.footer-logo{padding:0;}
+.subscribe-container{text-align:center;padding-top:15px;}
+.footer{margin-bottom:20px;}
+}
+@media (max-width:590px){.header h1{font-size:26px!important;}
+.header .btn{width:113px;font-size:11px;}
+.home .header #header-foreground img,.entrepreneur .header #header-foreground img,.crew .header #header-foreground img,.mission .header #header-foreground img,
+.contact .header #header-foreground img{width:364px;}
+.home .header{height:669px;}
+.mission .header{height:592px;}
+.crew .header{height:334px;}
+.mission .header #header-foreground-1{display:none;}
+.contact #header-foreground{left:0;}
+.blog .header, .single .header{height:548px;}
+.contact .header{height:445px;}
+.entrepreneur .header{height:500px;}
+.blog #header-foreground-1, .single #header-foreground-1{left:21px;top:76px;}
+.blog .header .top-buffer-1, .single .header .top-buffer-1{margin:0;padding-top:149px;}
+.blog #header-foreground-2, .single #header-foreground-2{right:57px;bottom:0;}
+.single .header #header-foreground img,.blog .header #header-foreground img{width:219px;}
+.home .navbar-collapse .nav,.entrepreneur .navbar-collapse .nav{background:#244b5c;}
+.mission .navbar-collapse .nav, .crew .navbar-collapse .nav, .blog .navbar-collapse .nav,.contact .navbar-collapse .nav,.mission .navbar-collapse .nav{background:#a1c9d5;}
+.home #header-foreground{left:0;}
+.entrepreneur #header-foreground{top:227px;bottom:0;}
+.footer .form-control{width:159px;}
+.content-1{padding:0 30px;}
+}
+.navbar-collapse{-webkit-box-shadow:none;box-shadow:none;}
+ul{list-style:disc !important;margin:0 !important;}
+#navbar > ul:nth-child(1) > li.dropdown.open > ul {list-style:none !important;}
+#navbar > ul.nav.navbar-nav.navbar-right > li.dropdown.open > ul {list-style:none !important;}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#navbar > ul.nav.navbar-nav.navbar-right > li.dropdown.open > ul > li.dropdown-submenu > ul {list-style:none !important;}
+
+// Partner Logos
+.partner-logos {
+  background-color: #eeeeee;
+  padding: 12px;
+}
+
+.partner-logos__title {
+  color: blue;
+}
+
+.partner-logos__body {
+  
+}
+
+.partner-logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.partner-logo + .partner-logo {
+  margin-left: 10px;
+}
+
+
+// Generic Objects
+
+.box {
+  border: 1px dashed grey;
+  padding: 12px;
+}
+
+
+// Utility classes
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.float--left {
+  float: left;
+}
+
+.float--right {
+  float: right;
+}
