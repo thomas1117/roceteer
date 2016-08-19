@@ -85,7 +85,7 @@ nav.navbar.navbar-default {
 .header {
     padding: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .container {
@@ -102,18 +102,27 @@ nav.navbar.navbar-default {
 .header.service {
     background-image: url(../imgs/bg_service.png);
 background-color: #F2F2F0;
-background-position: bottom;
+/*background-position: bottom;*/
  background-size: contain;
 max-height:704px;
 min-height:704px;
 }
 
-.header.crew {
-    background-image: url(../imgs/bg_crew.png);
+.crew h1 {
+
+    margin: 0;
+    font-family: Helvetica Neue Bold;
+    color: #264C5B;
+    position: absolute;
+    top:0;
+
+}
+.crew {
+    /*background-image: url(../imgs/bg-crew-980px.png);*/
 background-color: #F2F2F0;
-background-position: bottom;
-max-height:706px;
-min-height:706px;
+/*max-width: 980px;
+height:100%;
+margin:auto;*/
 }
 
 .header.case-studies {
