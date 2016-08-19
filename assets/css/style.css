@@ -218,7 +218,7 @@ background-color: #F2F2F0;
 .mission-control {
     position: relative;
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     font-family: Helvetica Neue Bold;
@@ -236,6 +236,8 @@ background-color: #F2F2F0;
     width:100%;
     z-index: 33;
     position: relative;
+    height: 100%;
+
 }
 
 .mission-control h1 {
@@ -263,10 +265,15 @@ h3.grey {
 }
 
 .content-page.mission {
-    padding: 50px 0 0 0;
+ 
     background-color: #52ADCE;
-    margin-top: -59px;
+    top:0;
     z-index: 22;
+
+}
+
+.contain-head {
+    max-width: 980px;
 
 }
 
@@ -282,6 +289,11 @@ h3.grey {
 
 }
 
+body, html{
+    height:100%;
+    padding:0;
+    margin:0;
+}
 
 
 .box {
