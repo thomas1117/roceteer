@@ -20,6 +20,7 @@ nav.navbar.navbar-default {
     background-color: #232527;
     border: none;
     margin: 0;
+    z-index: 999;
 }
 
 .navbar .navbar-nav {
@@ -29,6 +30,7 @@ nav.navbar.navbar-default {
     font-family: Helvetica Neue;
     text-transform: lowercase;
     letter-spacing: 2px;
+
 }
 
 
