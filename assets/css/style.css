@@ -104,8 +104,7 @@ nav.navbar.navbar-default {
 background-color: #F2F2F0;
 /*background-position: bottom;*/
  background-size: contain;
-max-height:704px;
-min-height:704px;
+height:100%;
 }
 
 .crew h1 {
@@ -212,6 +211,9 @@ background-color: #F2F2F0;
 
 .mission-control {
     padding: 50px 200px;
+    position: absolute;
+    top:150px;
+    width:80%;
     font-family: Helvetica Neue Bold;
 }
 
@@ -247,7 +249,7 @@ h3.grey {
 .content-page.mission {
     padding: 50px 0 0 0;
     background-color: #52ADCE;
-    margin-top: -59px;
+
 }
 
 .content-page.mission h1 {
@@ -260,9 +262,7 @@ h3.grey {
 
 }
 
-.serves {
-    padding: 50px 0;
-}
+
 
 .box {
     padding: 0;
@@ -304,12 +304,12 @@ background-position:center;
 }
 
 .serve h2 {
-    z-index: 10;
+    z-index: 23;
     position: relative;
 }
 
 .serve h4 {
-    z-index: 10;
+    z-index: 23;
     position: relative;
 }
 .serve:hover {

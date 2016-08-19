@@ -54,3 +54,24 @@ function handleService() {
 			$("#service-content-2").hide();
 		}
 }
+
+function toggleServiceActive(num) {
+		
+		
+
+		if(num==1) {
+			$("#service-content-1").show();
+			$("#service-content-2").hide();
+			$("#service-content-3").hide();
+		}
+		else if(num==2) {
+			$("#service-content-2").show();
+			$("#service-content-1").hide();
+			$("#service-content-3").hide();
+		}
+		else {
+			$("#service-content-3").show();
+			$("#service-content-1").hide();
+			$("#service-content-2").hide();
+		}
+}
