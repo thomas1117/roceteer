@@ -86,10 +86,13 @@
             <h1>HOW CAN WE BEST SERVE YOU?</h1>
             <h4>Select an area where you need a ROCeeter boost</h4>
             <div class="serves">
+              <div class='col-sm-12'>
                 <a href="#1" onClick="toggleActive(1)">
-                   <div class="col-md-4 box ">
+                   <div class="col-sm-4 box ">
                        <div class="opacity">
-                           <div class="serve human active">
+                        
+                           <div class="serve active">
+                           <img src="./assets/imgs/mission-control/human.png"/>
                                <h2>INDIVIDUAL</h2>
                                <h4>Are you a CEO, founder, <br /> individual or executive?</h4>
                            </div>
@@ -97,9 +100,10 @@
                     </div>
                 </a>
                 <a href="#2" onClick="toggleActive(2)">
-                    <div class="col-md-4 box center">
+                    <div class="col-sm-4 box center">
                         <div class="opacity">
-                            <div class="serve development">
+                            <div class="serve">
+                            <img src="./assets/imgs/mission-control/development.png"/>
                                 <h2>TEAM</h2>
                                 <h4>Looking to improve your company, project, <br />department or group mindset? </h4>
                             </div>
@@ -107,15 +111,17 @@
                     </div>
                 </a>
                 <a href="#3" onClick="toggleActive(3)">
-                    <div class="col-md-4 box">
+                    <div class="col-sm-4 box">
                         <div class="opacity">
-                            <div class="serve ecosystems">
+                            <div class="serve">
+                            <img src="./assets/imgs/mission-control/ecosystems.png"/>
                                 <h2>COMMUNITY</h2>
                                 <h4>Seeking entrepeneurial <br /> and intrapreneurial ecosystems, community <br /> enablement, investment <br /> portfolios & positive change?</h4>
                             </div>
                         </div>
                     </div>
                 </a>
+                </div>
             </div>
             <div id="stuff" class="col-md-12 content-wrapper line">
 
@@ -286,32 +292,34 @@
 
         </div>
         <div class="col-md-12 content-wrapper featured">
-            <h2>AS FEATURED IN</h2>
-            <div class="col-md-12 logos">
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/business-insider.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/inc.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/the-guardian.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/techco.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/yahoo.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/the-huffington-post.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/mashable.png" class="img-responsive" />
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/imgs/mission-control/featured/mainst.png" class="img-responsive" />
-                </div>
+            <div class="container">
+              <h2>AS FEATURED IN</h2>
+              <div class="col-md-12 logos">
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/business-insider.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/inc.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/the-guardian.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/techco.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/yahoo.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/the-huffington-post.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/mashable.png" class="img-responsive" />
+                  </div>
+                  <div class="col-md-3">
+                      <img src="assets/imgs/mission-control/featured/mainst.png" class="img-responsive" />
+                  </div>
+              </div>
             </div>
         </div>
         <div class="col-md-12 content-wrapper community">
@@ -389,14 +397,20 @@
     
     <div class="footer-bottom">
         <div class="container">
+          <div class="row">
+          <div class='col-xs-8'>
            <p class="pull-left"> &copy; 2013<script>new Date().getFullYear()>2013&&document.write("-"+new Date().getFullYear());</script>, ROCeteer Inc. All right reserved. </p>
-            <div class="pull-right">
+           </div>
+           <div class='col-xs-4'>
+            <div>
                 <ul class="nav nav-pills payments">
                     <li><i class="fa fa-cc-visa"></i></li>
                     <li><i class="fa fa-cc-mastercard"></i></li>
                     <li><i class="fa fa-cc-amex"></i></li>
                     <li><i class="fa fa-cc-paypal"></i></li>
                 </ul> 
+            </div>
+            </div>
             </div>
         </div>
     </div>
