@@ -216,10 +216,19 @@ background-color: #F2F2F0;
 }
 
 .mission-control {
-    padding: 50px 200px;
+    position: relative;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: Helvetica Neue Bold;
+    background-image: url(../imgs/bg-mission-controlx980-thomas.png);
+
+ 
+}
+
+.mission-text {
     position: absolute;
-    top:150px;
-    width:80%;
     font-family: Helvetica Neue Bold;
 }
 
