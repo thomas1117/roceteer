@@ -93,13 +93,10 @@ nav.navbar.navbar-default {
 }
 
 
+
  
 .header.mission-control {
-    background-image: url(../imgs/bg-mission-controlx980.png);
-    max-width: 980px;
-    background-color: #264c5b;
-    background-position: bottom;
-
+    
 }
 
 .header.service {
@@ -241,6 +238,7 @@ h3.grey {
 .content-page.mission {
     padding: 50px 0 0 0;
     background-color: #52ADCE;
+    margin-top: -59px;
 }
 
 .content-page.mission h1 {
@@ -250,6 +248,7 @@ h3.grey {
 .content-page.mission h4 {
     text-align: center;
     color: #fff;
+
 }
 
 .serves {
@@ -621,7 +620,7 @@ height: 400px
 	display: block;
 }
 .footer {
-	background: #F2F2F0;
+	background: #232527;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -629,6 +628,8 @@ height: 400px
 	border-bottom: 1px solid #CCCCCC;
 	border-top: 1px solid #DDDDDD;
 }
+
+
 .footer p {
 	margin: 0;
 }
@@ -657,7 +658,7 @@ height: 400px
 	display: block;
 }
 .footer a {
-	color: #000
+	color: #fff;
 }
 .supportLi h4 {
 	font-size: 20px;
@@ -735,7 +736,7 @@ height: 400px
 	color: #EDEFF1 !important;
 }
 .footer-bottom {
-	background: #F2F2F0;
+	background: #232527;
 	border-top: 1px solid #DDDDDD;
 	padding-top: 10px;
 	padding-bottom: 10px;
