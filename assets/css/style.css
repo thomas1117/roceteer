@@ -13,6 +13,10 @@
     src: url("../fonts/HelveticaNeueBold.ttf");
 }
 
+.mission-body {
+    background-color: #264c5b;
+}
+
 nav.navbar.navbar-default {
     padding-top: 15px;
     padding-bottom: 30px;
@@ -220,8 +224,9 @@ background-color: #F2F2F0;
 }
 
 .mission-top {
-    background-color: #264c5b;
     width:100%;
+    z-index: 33;
+    position: relative;
 }
 
 .mission-control h1 {
@@ -251,11 +256,15 @@ h3.grey {
 .content-page.mission {
     padding: 50px 0 0 0;
     background-color: #52ADCE;
+    margin-top: -59px;
+    z-index: 22;
 
 }
 
 .content-page.mission h1 {
     margin-bottom: 25px;
+    margin-top: 75px;
+
 }
 
 .content-page.mission h4 {
@@ -506,14 +515,6 @@ a.learn-more h4 {
 }
 
 .community-background {
-    background-image: url(../imgs/mission-control/community.png);
-    background-size: contain;
-    height: 70%;
-	max-height: 600px; /* actual img height */
-  min-height:400px;
-	*height: 1162px; /* actual img height - IE7 */
-  background-repeat: no-repeat;
-	background-position: bottom;
 background-color:#fff;
 }
 
