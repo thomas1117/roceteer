@@ -38,6 +38,7 @@ nav.navbar.navbar-default {
 }
 
 
+
 @media (max-width: 1015px) {
     
    .nav.navbar-nav li a {
@@ -122,11 +123,14 @@ height:100%;
 
 }
 .crew {
-    /*background-image: url(../imgs/bg-crew-980px.png);*/
+
 background-color: #F2F2F0;
-/*max-width: 980px;
-height:100%;
-margin:auto;*/
+}
+
+@media(max-width: 600px) {
+    .crew {
+        padding-top: 110px;
+    }
 }
 
 .header.case-studies {
@@ -363,7 +367,7 @@ h3.grey {
     
 }
 
-@media(max-width: 800px) {
+@media(max-width: 700px) {
     .content-img img {
         display: none!important;
 
@@ -384,28 +388,8 @@ h3.grey {
     }
 }
 
-@media screen and(max-width: 800px) {
-    .content-img img {
-        display: none!important;
 
-    }
 
-    .content-img h2 {
-        /*display: inline-block!important;*/
-        display: none;
-        position: relative!important;
-        padding:0;
-        margin:0;
-    }
-
-    .content-img h4 {
-        /*display: none!important;
-*/        position: relative!important;
-            display: none;
-        padding: 0;
-        margin:0;
-    }
-}
 
 .box {
     padding: 0;
@@ -420,41 +404,16 @@ h3.grey {
 }
 
 .serve {
-    text-align: center;
-    padding: 5px 15px;
-    height: 500px;
-    background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-    
+    text-align: center;  
     opacity: 0.7;
-    
     transition: all 0.2s;
     -o-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
+
 }
 
-.serve img {
-    width:100%;
-    height: 500px;
-    left:0;
-    position: absolute;
-    z-index: 22;
-}
 
-.serve h2 {
-    z-index: 23;
-    position: relative;
-}
-
-.serve h4 {
-    z-index: 23;
-    position: relative;
-}
 .serve:hover {
     opacity: 1 !important;
 }
@@ -490,6 +449,7 @@ background-position:center;
 
 .content-wrapper {
     padding: 50px 15px;
+    background-color: #fff;
    
 }
 
