@@ -127,6 +127,11 @@ background-color: #F2F2F0;
     .crew {
         padding-top: 110px;
     }
+
+    a.learn-more {
+        padding: 5px!important;
+        border:none!important;
+    }
 }
 
 .header.case-studies {
@@ -876,8 +881,8 @@ height: 400px
 }
 .social li a i {
 	font-size: 16px;
-	margin: 0 0 0 5px;
-	color: #EDEFF1 !important;
+    margin: 8px 0 0 8px;
+    color: #EDEFF1 !important;
 }
 .footer-bottom {
 	background: #232527;

@@ -27,7 +27,7 @@ function toggleActive(num) {
 		
 		
 
-		if(num==1) {
+		if(num===1) {
 			$("#content-1").show();
 			$("#active-1").addClass('active');
 			$("#active-2").removeClass('active');
@@ -37,11 +37,11 @@ function toggleActive(num) {
 		
 
 		}
-		else if(num==2) {
+		else if(num===2) {
 			$("#content-2").show();
 			$("#active-2").addClass('active');
 			$("#active-1").removeClass('active');
-			$("#active-1").removeClass('active');
+			$("#active-3").removeClass('active');
 
 			hideAndRemove("#content",1,3);
 			
@@ -50,7 +50,7 @@ function toggleActive(num) {
 			$("#content-3").show();
 			$("#active-3").addClass('active');
 			$("#active-1").removeClass('active');
-			$("#active-1").removeClass('active');
+			$("#active-2").removeClass('active');
 			hideAndRemove("#content",1,2);
 		
 		}
@@ -61,7 +61,7 @@ function handleService() {
 		var id = getQueryVariable('id');
 
 		if(id==1 || id===undefined) {
-			
+
 			$("#service-content-1").show();
 			$("#active-1").addClass('active');
 			$("#active-2").removeClass('active');
@@ -93,18 +93,29 @@ function toggleServiceActive(num) {
 		
 
 		if(num==1) {
+
 			$("#service-content-1").show();
-			
-			hideAndRemove("#service-content",2,3);
+			$("#active-1").addClass('active');
+			$("#active-2").removeClass('active');
+			$("#active-3").removeClass('active');
 		}
 		else if(num==2) {
 			$("#service-content-2").show();
-			
+
 			hideAndRemove("#service-content",1,3);
+			
+
+			$("#active-2").addClass('active');
+			$("#active-1").removeClass('active');
+			$("#active-3").removeClass('active');
 		}
-		else {
+		else if(num==3) {
 			$("#service-content-3").show();
 			
 			hideAndRemove("#service-content",1,2);
+
+			$("#active-3").addClass('active');
+			$("#active-1").removeClass('active');
+			$("#active-2").removeClass('active');
 		}
 }
