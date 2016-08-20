@@ -299,6 +299,8 @@ h3.grey {
     font-family: Helvetica Neue Bold;
     color: #264C5B;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .content-page.mission {
@@ -351,6 +353,14 @@ h3.grey {
     top:80;
     color:#000;
 
+}
+
+.transcend-text {
+    position: relative!important;
+    left: 0;
+    top: -116px;
+    margin: auto;
+    
 }
 
 @media(max-width: 800px) {
