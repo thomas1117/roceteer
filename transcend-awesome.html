@@ -6,46 +6,386 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-    <!--Navbar-->
-    <nav class="navbar navbar-default" role="navigation">
+<body class="service-body">
+<nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+                  <span class="sr-only">Toggle navigation</span> 
+                  <span class="icon-bar"></span> 
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                </button>
+                
                 <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
+
             </div>
+
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="mission-control.html">Mission control</a></li>
-                    <li><a class="active" href="transcend-awesome.html">Transcend Awesome</a></li>
                     <li>
-                        <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
+                      <a class="active" href="mission-control.html">Mission control</a>
                     </li>
-                    <li><a href="service.html">Service</a></li>
-                    <li><a href="crew.html">Crew</a></li>
-                    <li><a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter fa-2x"></i> </a> </li>
+                    <li>
+                      <a href="transcend-awesome.html">Transcend Awesome</a>
+                    </li>
+                    <li>
+                      <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
+                    </li>
+                    <li>
+                      <a href="service.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="crew.html">Crew</a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter fa-2x"></i></a> 
+                    </li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <!--Navbar END-->
-    <!--Header-->
-    <div class="col-md-12 header transcend-awesome">
+  </nav>
+  <div class="row noPad">
+    <div class="mission-top">
+      <div class="contain-head center-block">
+        <div>
+          <div class="col-xs-12 noPad">
+          <img class="img img-responsive center-block" src="./assets/imgs/bg-transcend-980px.png"/>
+          </div>
+          <div class="mission-text">
+            <h1 class="header-color">TRANSCEND<br/> AWESOME</h1>
+           
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="content-page">
+        <div class="container contain-fixed">
+            
+            <div class="row noPad">
+              <h1>HOW CAN WE BEST SERVE YOU?</h1>
+              <h4 class="text-center">Select an area where you need a ROCeeter boost</h4>
+            </div>
+            
+            <div class='row noPad'>
+                <div class=" col-sm-4 col-xs-12 noPad content-img text-left">
+                  <a href="#1" onClick="toggleActive(1)">
+                    <img class="img img-responsive" src="./assets/imgs/mission-control/human.png"/>
+                    <h2 class="toggle">INDIVIDUAL</h2>
+                    <h4>Are you a CEO, founder, <br /> individual or executive?</h4>
+                  </a>
+                  </div>
+                  <div class=" col-sm-4 col-xs-12 noPad content-img text-left">
+                    <a href="#2" onClick="toggleActive(2)">
+                      <img class="img img-responsive" src="./assets/imgs/mission-control/development.png"/>             
+                      <h2 class="toggle">TEAM</h2>
+                      <h4>Looking to improve your company, project, <br />department or group mindset? </h4>
+                    </a>
+                  </div>
+                  <div class=" col-sm-4 col-xs-12 noPad content-img text-left">
+                    <a href="#3" onClick="toggleActive(3)">
+                      <img class="img img-responsive" src="./assets/imgs/mission-control/ecosystems.png"/>
+                      <h2 class="toggle">COMMUNITY</h2>
+                      <h4>Seeking entrepeneurial <br /> and intrapreneurial ecosystems, community <br /> enablement, investment <br /> portfolios & positive change?
+                      </h4>
+                    </a>
+                  </div>
+                  
+              </div>
+          </div>
+        
+        <div class="container contain-fixed">
+
+          <div id="content-1" class="row noPad content">
+            <div class="col-xs-12">
+              <h2 class='text-center'>BE THE BEST VERSION OF YOURSELF MORE OFTEN</h2>
+              <div class="col-xs-4 column">
+                  <h4>MINDSET</h4>
+                  <ul>
+                      <li>Emotions</li>
+                      <li>Beliefs</li>
+                      <li>Purpose</li>
+                      <li>Personal Values</li>
+                      <li>State Management</li>
+                      <li>Leadership Style</li>
+                      <li>Self Confidence</li>
+                      <li>Personal Strength</li>
+                  </ul>
+                  <a href="service.html?id=1" class="learn-more">LEARN MORE</a>
+              </div>
+              <div class="col-xs-4 column">
+                  <h4>ACTIONS</h4>
+                  <ul>
+                      <li>Leverage Strengths</li>
+                      <li>Leadership Development</li>
+                      <li>Creativity & Innovation</li>
+                      <li>Communication skills</li>
+                      <li>Time Management</li>
+                      <li>Decision Making</li>
+                      <li>Setting targets and goals</li>
+                      <li>Presentation skills</li>                        
+                  </ul>
+                  <a href="service.html?id=2" class="learn-more">LEARN MORE</a>
+              </div>
+              <div class="col-xs-4 column">
+                  <h4>WORK &amp; IMPACT</h4>
+                  <ul>
+                      <li>Inspiring others</li>
+                      <li>Accountability</li>
+                      <li>Health & Wellness</li>
+                      <li>Mindfulness</li>
+                      <li>Happiness</li>
+                      <li>Productivity</li>
+                      <li>Effectiveness</li>
+                      <li>Meeting goals</li>
+                      </ul>
+                  <a href="service.html?id=3" class="learn-more">LEARN MORE</a>
+              </div>
+            </div>
+        </div>
+
+
+        <div id="content-2" class="row noPad content">
+
+            <h2 class='text-center'>MAXIMIZE THE VALUE OF YOUR TEAM</h2>
+            <div class="col-xs-4 column">
+                <h4>GROWTH</h4>
+                <ul>
+                    <li>Creativity & Innovation</li>
+                    <li>Brand Value & Voice</li>
+                    <li>Growth Hacking / Scaling</li>
+                    <li>Customer Acquisition & Retention</li>
+                    <li>Sales & Business Development</li>
+                    <li>Product Management</li>
+                    <li>Competitive Landscape</li>
+                    <li>Technology Platform</li>
+                    <li>MVP Development and launch</li>
+                    <li>Branding & Growth Strategies</li>
+                </ul>
+                <a href="service1.html?id=1" class="learn-more">LEARN MORE</a>
+            </div>
+
+            <div class="col-xs-4 column">
+               <h4>STRATEGY &amp; FINANCE</h4>
+               <ul>
+                  <li>Capital Raise</li>
+                  <li>Investor Chemistry</li>
+                  <li>Product Market Fit</li>
+                  <li>Business Canvas</li>
+                  <li>Financial model</li>
+                  <li>Customer Lifetime Value</li>
+                  <li>Resource Allocation</li>
+                  <li>Pitching</li>
+                  <li>Infrastructure</li>
+                  <li>Behavioral & Creative Sciences</li>
+               </ul>
+               <a href="service1.html?id=2" class="learn-more">LEARN MORE</a>
+            </div>
+
+            <div class="col-xs-4 column">
+               <h4>TEAM &amp; OPERATIONS</h4>
+               <ul>
+                  <li> Team Cohesiveness
+                  </li>
+                  <li>Co-founder Chemistry
+                  </li>
+                  <li>Team Happiness</li>
+                  <li>Operational Execution</li>
+                  <li>Productivity & Focus</li>
+                  <li>Culture & Values</li>
+                  <li>Focus & Alignment</li>
+                  <li>Conflict Mining & Resolution</li>
+                  <li>Product development and roadmap</li>
+                  <li>Business Growth </li>
+               </ul>
+               <a href="service1.html?id=3" class="learn-more">LEARN MORE</a>
+            </div>
+          </div>
+
+            <div id="content-3" class="row noPad content">
+                <h2 class='text-center'>MAXIMIZE THE IMPACT OF YOUR COMMUNITY</h2>
+                
+                <div class="col-xs-4 column">
+                   <h4>INVESTMENT PORTFOLIO</h4>
+                   <ul>
+                      <li>Due Dilligence</li>
+                      <li>Portfolio Assessment</li>
+                      <li>Fostering collisions</li>
+                      <li>Supporting Co-learning</li>
+                      <li>Supporting teams and individuals</li>
+                      <li>Entrepreneur profiling</li>
+                      <li>Support infrastructure</li>
+                      <li>Connector Platform </li>
+                      <li>Portfolio Assesment</li>
+                      <li>Portfolio Financial Return</li>
+                   </ul>
+                   <a href="service2.html?id=1" class="learn-more">LEARN MORE</a>
+                </div>
+
+                <div class="col-xs-4 column">
+                   <h4>COMMUNITY</h4>
+                   <ul>
+                      <li>  Community Events</li>
+                      <li>Community Assessment</li>
+                      <li>Fostering collisions</li>
+                      <li>Supporting Co-learning</li>
+                      <li>Supporting teams and individuals</li>
+                      <li>Connector Program</li>
+                      <li>Community Platform</li>
+                      <li>Ecosystem mapping</li>
+                      <li>Enhancing Culture</li>
+                      <li>Growth Hacking     </li>
+                   </ul>
+                   <a href="service.html?id=2" class="learn-more">LEARN MORE</a>
+                </div>
+
+                <div class="col-xs-4 column">
+                   <h4>CORPORATE INNOVATION</h4>
+                   <ul>
+                      <li> Incubator Program</li>
+                      <li>Identifying Innovation</li>
+                      <li>Intrapreneur Identification</li>
+                      <li>Supporting Intrapreneurs</li>
+                      <li>Training Materials</li>
+                      <li>Mentor Connectivity</li>
+                      <li>Internal Pitch Support</li>
+                      <li>MVP Development</li>
+                      <li>Network build and process</li>
+                      <li>Metrics</li>
+                   </ul>
+                   <a href="service.html?id=3" class="learn-more">LEARN MORE</a>
+                </div>
+                
+            </div>
+            
+            <div class="content-wrapper button">
+              <div class="content">
+                  <a href="">BOOK SOME TIME WITH US</a>
+              </div>
+            </div>
+
+            
+      </div>
+            
+      
+      
+      
+      <div class="col-md-12 content-wrapper featured">
+            <div class="container">
+              <h2>AS FEATURED IN</h2>
+              <img class="img img-responsive" src="assets/imgs/mission-control/companies.png"/>
+            </div>
+      </div>
+      
+
+      <div class="row noPad community-background">
+        <div class="contain-fixed center-block">
+          <h2>RETURN ON COMMUNITY</h2>
+          <h3>As soon as you look beyond individual needs and empower a collective, great things start to happen. Learn more about how we have helped communities transcend awesome.</h3>
+          <a href="/blog">FIND OUT MORE</a>
+
+          <div class="text-center">
+                <img class="img img-responsive center-block" src="assets/imgs/mission-control/community-980px.png"/>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+    <div class="footer" id="footer">
         <div class="container">
-            <div class="jumbotron">
-                <h1>TRANSCEND <br /> AWESOME</h1> </div>
+            <div class="row noPad">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li>
+                            <div class="input-append newsletter-box text-center">
+                                <input type="text" class="full text-center" placeholder="Email ">
+                                <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow noPad-right"> </i> </button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+       
+    </div>
+ 
+    
+    <div class="footer-bottom">
+        <div class="container">
+          <div class="row noPad">
+          <div class='col-xs-8'>
+           <p class="pull-left"> &copy; 2013<script>new Date().getFullYear()>2013&&document.write("-"+new Date().getFullYear());</script>, ROCeteer Inc. All right reserved. </p>
+           </div>
+           <div class='col-xs-4'>
+            <div>
+                <ul class="nav nav-pills payments">
+                    <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+            </div>
+            </div>
         </div>
     </div>
-    <!--Header END-->
-    <!--Content-->
-    <div class="col-md-12 content-page">
-        <div class="container">
-            <h1>BECOME THE BEST VERSION OF YOURSELF</h1> </div>
-    </div>
-    <!--Content END-->
+  
+</footer>
+ 
     <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 

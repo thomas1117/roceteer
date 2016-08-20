@@ -94,16 +94,15 @@ nav.navbar.navbar-default {
     /*background-size: cover;*/
 }
 
-.container {
-    max-width:980px!important;
+.contain-fixed {
+    max-width: 980px!important;
+    margin:auto!important;
 }
 
 
 
  
-.header.mission-control {
-    
-}
+
 
 .header.service {
     background-image: url(../imgs/bg_service.png);
@@ -209,10 +208,20 @@ background-color: #F2F2F0;
     background-color: transparent;
 }
 
-.jumbotron h1{
+.header-service {
     margin: 0;
     font-family: Helvetica Neue Bold;
     color: #264C5B;
+    position: absolute;
+    top:0;
+}
+
+.header-color {
+    color:#264C5B;
+}
+
+.service-body {
+    background-color: #F2F2F0;
 }
 
 .mission-control {
@@ -301,6 +310,13 @@ h3.grey {
 
 }
 
+.content-page.service {
+        background-color: #52ADCE;
+    margin-top:0;
+    padding-top: 50px;
+    z-index: 22;
+}
+
 .contain-head {
     max-width: 980px;
 
@@ -312,14 +328,74 @@ h3.grey {
 
 }
 
-.content-page.mission h4 {
-    text-align: center;
-    color: #fff;
+.noPad {
+    margin-left:0!important;
+    margin-right:0!important;
+    padding-left:0!important;
+    padding-right:0!important;
+}
+
+.content {
+    background-color: #fff;
+}
+.content-img {
+    position: relative;
+}
+.content-img h2 {
+    position: absolute;
+    top:20;
+    color:#000;
+}
+.content-img h4 {
+    position: absolute;
+    top:80;
+    color:#000;
 
 }
 
+@media(max-width: 800px) {
+    .content-img img {
+        display: none!important;
 
+    }
 
+    .content-img h2 {
+        display: inline-block!important;
+        position: relative!important;
+        padding:0;
+        margin:0;
+    }
+
+    .content-img h4 {
+        display: none!important;
+        position: relative!important;
+        padding: 0;
+        margin:0;
+    }
+}
+
+@media screen and(max-width: 800px) {
+    .content-img img {
+        display: none!important;
+
+    }
+
+    .content-img h2 {
+        /*display: inline-block!important;*/
+        display: none;
+        position: relative!important;
+        padding:0;
+        margin:0;
+    }
+
+    .content-img h4 {
+        /*display: none!important;
+*/        position: relative!important;
+            display: none;
+        padding: 0;
+        margin:0;
+    }
+}
 
 .box {
     padding: 0;
@@ -495,7 +571,7 @@ a.learn-more h4 {
     text-align: center;
 }
 
-.content-wrapper.button .content a {
+.button .content a {
     text-decoration: none;
     font-family: Helvetica Neue Bold;
     color: #fff;
@@ -633,9 +709,9 @@ height: 400px
         margin-top: 50px;
     }
     
-    .community-background {
+    /*.community-background {
         display: none;
-    }
+    }*/
 }
 
 .rw-words span{
