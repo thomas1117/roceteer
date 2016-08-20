@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	    acc[i].onclick = function(){
+	        this.classList.toggle("active");
+	        this.nextElementSibling.classList.toggle("show");
+	    }
+	}
+
 })
 
 function getQueryVariable(variable) {
@@ -98,6 +108,7 @@ function toggleServiceActive(num) {
 			$("#active-1").addClass('active');
 			$("#active-2").removeClass('active');
 			$("#active-3").removeClass('active');
+			hideAndRemove("#service-content",2,3);
 		}
 		else if(num==2) {
 			$("#service-content-2").show();
@@ -119,3 +130,4 @@ function toggleServiceActive(num) {
 			$("#active-2").removeClass('active');
 		}
 }
+

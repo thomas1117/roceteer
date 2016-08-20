@@ -109,6 +109,8 @@ background-color: #F2F2F0;
 height:100%;
 }
 
+
+
 .crew h1 {
 
     margin: 0;
@@ -248,45 +250,20 @@ background-color: #F2F2F0;
     font-family: Helvetica Neue Bold;
 }
 
-@media(max-width: 700px) {
-    .mission-text {
-        position: relative!important;
-        left:0;
-        top:-180px;
-        margin:auto!important;
-
-    }
-
-
-
-    .mission-control h3 {
-        text-align: center;
-    }
-
-    .mission-control h1 {
-        text-align: center;
-    }
-
-    .toggle {
-        display: block!important;
-    }
-
-    h3 span {
-        display: block;
-        padding-top: 0px;
-        color:#fff!important;
-    }
-
-    .rw-words span {
-        display: none;
-    }
-
-    .mission-body {
-    background-color: #52ADCE!important;
+.service-text {
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:80%;
+    font-family: Helvetica Neue Bold;
 }
 
 
-}
+
+
+
+
+
 
 .mission-top {
     width:100%;
@@ -383,38 +360,6 @@ h3.grey {
     
 }
 
-@media(max-width: 770px) {
-    .content-img img {
-        display: none!important;
-
-    }
-
-    .content-img h2 {
-        display: block!important;
-        position: relative!important;
-        
-    }
-
-    .content-img h4 {
-        display: none!important;
-        position: relative!important;
-        padding: 0;
-        margin:0;
-    }
-
-    .toggle {
-        color:#fff!important;
-    }
-
-    .content-img a {
-        display: block!important;
-        
-        color:#fff!important;
-
-        padding:5px;
-
-    }
-}
 
 
 
@@ -911,6 +856,129 @@ nav.navbar.navbar-default {
     margin: 0;
 }
 
+.accordian-contain {
+    display: none;
+}
+
+
+
+
+@media(max-width: 800px) {
+    .accordian-contain {
+        display: block!important;
+    }
+
+    .content-normal-container {
+    display: none!important;
+}
+
+.content-img img {
+        display: none!important;
+
+    }
+
+    .content-img h4 {
+        display: none!important;
+        position: relative!important;
+        padding: 0;
+        margin:0;
+    }
+
+    .toggle {
+        color:#fff!important;
+    }
+
+    .content-img a {
+        display: block!important;
+        
+        color:#fff!important;
+
+        padding:5px;
+
+    }
+
+.mission-text {
+        position: relative!important;
+        left:0;
+        top:-180px;
+        margin:auto!important;
+
+    }
+
+    .mission-experience {
+        position: relative;
+        top:100px;
+    }
+
+    .mission-control h3 {
+        text-align: center;
+    }
+
+    .mission-control h1 {
+        text-align: center;
+    }
+
+    .toggle {
+        display: none!important;
+    }
+
+    h3 span {
+        display: block;
+        padding-top: 0px;
+        color:#fff!important;
+    }
+
+    .rw-words span {
+        display: none;
+    }
+
+    .mission-body {
+    background-color: #52ADCE!important;
+}
+
+
+.content-normal-container {
+    display: block;
+    background-color: #fff;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordian-contain {
+    background-color: #fff;
+}
+
+.accordian-contain ul {
+    margin:0;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
 
 
 

@@ -1,248 +1,290 @@
 <html>
-
-<head>
-    <title>Service</title>
-    <link href="assets/imgs/favicon.png" rel="icon" />
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body class="service-body" onLoad="handleService()">
-    <!--Navbar-->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
+   <head>
+      <title>Service</title>
+      <link href="assets/imgs/favicon.png" rel="icon" />
+      <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body class="service-body" onLoad="handleService()">
+      <!--Navbar-->
+      <nav class="navbar navbar-default" role="navigation">
+         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+               <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="mission-control.html">Mission control</a></li>
-                    <li><a href="transcend-awesome.html">Transcend Awesome</a></li>
-                    <li>
-                        <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
-                    </li>
-                    <li><a class="active" href="service.html">Service</a></li>
-                    <li><a href="crew.html">Crew</a></li>
-                    <li><a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter fa-2x"></i> </a> </li>
-                </ul>
+               <ul class="nav navbar-nav">
+                  <li><a href="mission-control.html">Mission control</a></li>
+                  <li><a href="transcend-awesome.html">Transcend Awesome</a></li>
+                  <li>
+                     <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" class="img-responsive logo" /></a>
+                  </li>
+                  <li><a class="active" href="service.html">Service</a></li>
+                  <li><a href="crew.html">Crew</a></li>
+                  <li><a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter fa-2x"></i> </a> </li>
+               </ul>
             </div>
-        </div>
-    </nav>
-    <!--Navbar END-->
-    <!--Header-->
-
-    <div class="row noPad">
-    <div class="mission-top">
-      <div class="contain-head center-block">
-        <div>
-          <div class="image-container">
-          <img class="img img-responsive center-block" src="./assets/imgs/rocket.png"/>
-          </div>
-          <div class="mission-text">
-            <h1 class="header-color">TRANSCEND<br/> AWESOME</h1>
-           
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   
-   
- 
-    <!--Content-->
-    <div class="col-md-12 content-page service">
-        <div class="container contain-fixed">
-          <div class="contain-fixed">
-              <h1>ROCETEER SERVICES</h1> 
-              <h4 class="text-center">Select an area where you need a ROCeeter boost</h4>
-          </div>
-           
-            
-         <div class='col-sm-12 noPad'>
-                <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
-                  <a href="#1" onClick="toggleServiceActive(1)" class="serve">
-                      <img id="active-1" class="img img-responsive serve active" src="./assets/imgs/mission-control/development.png"/>             
-                      <h2 class="toggle">INDIVIDUAL</h2>
-                      <h4>Are you a CEO, founder, <br /> individual or executive?</h4>
-                  </a>
-
-                </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
-                    <a href="#2" onClick="toggleServiceActive(2)" class="serve">
-                      <img id="active-2" class="img img-responsive serve" src="./assets/imgs/mission-control/development.png"/>             
-                      <h2 class="toggle">TEAM</h2>
-                      <h4>Looking to improve your company, project, <br />department or group mindset? </h4>
-                    </a>
+         </div>
+      </nav>
+      <!--Navbar END-->
+      <!--Header-->
+      <div class="row noPad">
+         <div class="mission-top">
+            <div class="contain-head center-block">
+               <div>
+                  <div class="image-container">
+                     <img class="img img-responsive center-block" src="./assets/imgs/rocket.png"/>
                   </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
-                    <a href="#3" onClick="toggleServiceActive(3)" class="serve">
-                      <img id="active-3" class="img img-responsive serve" src="./assets/imgs/mission-control/ecosystems.png"/>
-                      <h2 class="toggle">COMMUNITY</h2>
-                      <h4>Seeking entrepeneurial <br /> and intrapreneurial ecosystems, community <br /> enablement, investment <br /> portfolios & positive change?
-                      </h4>
-                    </a>
-                  </div>
-                  
-          </div>
-       
-          <div class="col-sm-12">
-          
-            <div id="service-content-1" class="col-md-12 contain-fixed">
-                <div class="col-sm-12">
-               <h2>BE THE BEST VERSION OF YOURSELF MORE OFTEN</h2>
-               <p>We love working with entrepreneurial people who want to improve themselves, remove obstacles, achieve their goals and so have a greater impact as a leader in their teams and communities.</P>
-               <div class="col-md-12">
-                  <div class="col-md-12" id="first">
-                     <h2>MINDSET</h2>
-                     <p>Everything starts with your mindset, what are you telling yourself, what are your beliefs? Are you hindering your own ability to flourish and be the best that you can be to truly self-actualize and leverage all your strengths?  As trained coaches and NLP practitioners we love asking the right questions to get to the heart of the matter and support your growth.</p>
-                  </div>
-                  <div class="col-md-12" id="second">
-                     <h2>ACTIONS</h2>
-                     <p>We love supporting you to close that knowing-doing gap, where you intellectually know what to do and yet for some reason you do not act, you procrastinate.  We support you to leverage your strengths and abilities so that you can be a better leader and inspire action in others.</p>
-                  </div>
-                  <div class="col-md-12" id="third">
-                     <h2>IMPACT</h2>
-                     <p>If you have the right mindset and also start to act appropriately you will create amazing impact for yourself and those around you.  We work with you to ensure that this happens and also that you celebrate it so that the actions are reinforced and it becomes a virtuous circle.  You achieve your goals, you are happy and this inspires a better mindset and more action leading to yet more results.</p>
+                  <div class="service-text">
+                     <h1 class="header-color">TRANSCEND<br/> AWESOME</h1>
                   </div>
                </div>
-               
-              </div>
-          </div>
-
-          <div id="service-content-2" class="col-md-12 contain-fixed">
-             <h2>MAXIMIZE THE VALUE OF YOUR TEAM</h2>
-             <p>We coach, mentor and train teams that are passionate about wanting to grow and make more impact in the world, we support them to guide strategy and direction; to raise funds; and to create happy and empowered team members</P>
-             <div class="row">
-                <div class="col-md-12" id="first">
-                   <h2>Growth</h2>
-                   <p>We love working with teams that want to grow, to scale.  This is why we love working with entrepreneurs who want to change the world and create limitless possibilities.  Growth requires tenacity and hard work as well as a neverending desire to satisfy your customers known and  unknown desires through a great product and service with a consistent brand voice.</p>
-                </div>
-                <div class="col-md-12" id="second">
-                   <h2>Strategy & Finance</h2>
-                   <p>We work with teams to support the development of their strategy and can also act as an additional set of analytical eyes looking at the numbers of the business.  Cash is the lifeblood of any business, understanding cash flow and successfully sourcing investment cash when required is crucial to any business.</p>
-                </div>
-                <div class="col-md-12" id="third">
-                   <h2>Team & Operations</h2>
-                   <p>Every business is a people business, we hire people for our teams, we sell to people, we have people give us key resources, people are our investors.  We understand this and 
-                </div>
-             </div>
-             
-          </div>
-          
-          <div id="service-content-3" class="col-md-12 contain-fixed">
-              <h2>MAXIMIZE THE IMPACT OF YOUR COMMUNITY</h2>
-              <p>The thing we love the most is working with entrepreneurial communities whether they be an investment portfolio, progressive community or supporting intrapreneurs inside corporates.  At the community level we support the fabric of the community as well as the teams and individuals.</P>
-              <div class="row">
-                 <div class="col-md-12" id="first">
-                    <h2>Investment Portfolio </h2>
-                    <p>What if your investment portfolio had a passionate team of people that could coach, mentor, train and consult to your teams.  A team that could connect all the people inside your investment ecosystem to leverage the power of connection.  We love working with investment ecosystems to support the ecosystem to maximize the return on investment for the fund by maximising the return on community within it.</p>
-                 </div>
-                 <div class="col-md-12" id="second">
-                    <h2>Community</h2>
-                    <p>Sometimes the community is not an investment portfolio and instead there is a desire to improve a certain geographic community.  We support communities by mapping the community and connecting people as well as running events for the members of the community and coaching people and teams within the community.</p>
-                 </div>
-                 <div class="col-md-12" id="third">
-                    <h2>Corporate Innovation</h2>
-                    <p>Inside any large corporate you will find amazingly talented and creative people that want to be entrepreneurial but can't seem to find the platform to get internal attention.  We work with corporates to identify entrepreneurial talent within the company and also create internal incubator programs to support the identification and realization of creativity and innovation from within.</p>
-                 </div>
-              </div>
-              <br><br>
-           </div>
-            
-
             </div>
-
-            <div class="content-wrapper button">
-              <div class="content">
-                  <a href="">BOOK SOME TIME WITH US</a>
-              </div>
-            </div>
+         </div>
       </div>
-    </div>
+      <!--Content-->
+      <div class="col-sm-12 content-page service">
+         <div class="container contain-fixed">
+            <div class="contain-fixed">
+               <h1>ROCETEER SERVICES</h1>
+               <h4 class="text-center">Select an area where you need a ROCeeter boost</h4>
+            </div>
+            <div class='col-sm-12 noPad'>
+               <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
+                  <a href="#1" onClick="toggleServiceActive(1)" class="serve">
+                     <img id="active-1" class="img img-responsive serve active" src="./assets/imgs/mission-control/development.png"/>             
+                     <h2 class="toggle">INDIVIDUAL</h2>
+                     <h4>Are you a CEO, founder, <br /> individual or executive?</h4>
+                  </a>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
+                  <a href="#2" onClick="toggleServiceActive(2)" class="serve">
+                     <img id="active-2" class="img img-responsive serve" src="./assets/imgs/mission-control/development.png"/>             
+                     <h2 class="toggle">TEAM</h2>
+                     <h4>Looking to improve your company, project, <br />department or group mindset? </h4>
+                  </a>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12 noPad content-img text-left">
+                  <a href="#3" onClick="toggleServiceActive(3)" class="serve">
+                     <img id="active-3" class="img img-responsive serve" src="./assets/imgs/mission-control/ecosystems.png"/>
+                     <h2 class="toggle">COMMUNITY</h2>
+                     <h4>Seeking entrepeneurial <br /> and intrapreneurial ecosystems, community <br /> enablement, investment <br /> portfolios & positive change?
+                     </h4>
+                  </a>
+               </div>
+            </div>
+            <div style="background-color:#fff" class="col-sm-12 content-normal-container">
+               <div id="service-content-1" class="col-md-12 contain-fixed">
+                                 <div class="col-sm-12 noPad">
+                                    <h2>BE THE BEST VERSION OF YOURSELF MORE OFTEN</h2>
+                                    <p>We love working with entrepreneurial people who want to improve themselves, remove obstacles, achieve their goals and so have a greater impact as a leader in their teams and communities.</P>
+                                    <div class="col-sm-12 noPad">
+                                       <div class="col-sm-12 noPad" id="first">
+                                          <h2>MINDSET</h2>
+                                          <p>Everything starts with your mindset, what are you telling yourself, what are your beliefs? Are you hindering your own ability to flourish and be the best that you can be to truly self-actualize and leverage all your strengths?  As trained coaches and NLP practitioners we love asking the right questions to get to the heart of the matter and support your growth.</p>
+                                       </div>
+                                       <div class="col-sm-12 noPad" id="second">
+                                          <h2>ACTIONS</h2>
+                                          <p>We love supporting you to close that knowing-doing gap, where you intellectually know what to do and yet for some reason you do not act, you procrastinate.  We support you to leverage your strengths and abilities so that you can be a better leader and inspire action in others.</p>
+                                       </div>
+                                       <div class="col-sm-12 noPad" id="third">
+                                          <h2>IMPACT</h2>
+                                          <p>If you have the right mindset and also start to act appropriately you will create amazing impact for yourself and those around you.  We work with you to ensure that this happens and also that you celebrate it so that the actions are reinforced and it becomes a virtuous circle.  You achieve your goals, you are happy and this inspires a better mindset and more action leading to yet more results.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+            
+               <div id="service-content-2" class="col-sm-12 noPad contain-fixed">
+                  <h2>MAXIMIZE THE VALUE OF YOUR TEAM</h2>
+                  <p>We coach, mentor and train teams that are passionate about wanting to grow and make more impact in the world, we support them to guide strategy and direction; to raise funds; and to create happy and empowered team members</P>
+                  <div class="row">
+                     <div class="col-sm-12 noPad" id="first">
+                        <h2>Growth</h2>
+                        <p>We love working with teams that want to grow, to scale.  This is why we love working with entrepreneurs who want to change the world and create limitless possibilities.  Growth requires tenacity and hard work as well as a neverending desire to satisfy your customers known and  unknown desires through a great product and service with a consistent brand voice.</p>
+                     </div>
+                     <div class="col-sm-12 noPad" id="second">
+                        <h2>Strategy & Finance</h2>
+                        <p>We work with teams to support the development of their strategy and can also act as an additional set of analytical eyes looking at the numbers of the business.  Cash is the lifeblood of any business, understanding cash flow and successfully sourcing investment cash when required is crucial to any business.</p>
+                     </div>
+                     <div class="col-sm-12 noPad" id="third">
+                        <h2>Team & Operations</h2>
+                        <p>Every business is a people business, we hire people for our teams, we sell to people, we have people give us key resources, people are our investors.  We understand this and 
+                     </div>
+                  </div>
+               </div>
 
-    <div class="footer" id="footer">
-        <div class="container">
+               <div id="service-content-3" class="col-sm-12 noPad contain-fixed">
+                  <h2>MAXIMIZE THE IMPACT OF YOUR COMMUNITY</h2>
+                  <p>The thing we love the most is working with entrepreneurial communities whether they be an investment portfolio, progressive community or supporting intrapreneurs inside corporates.  At the community level we support the fabric of the community as well as the teams and individuals.</P>
+                  <div class="row">
+                     <div class="col-sm-12 noPad" id="first">
+                        <h2>Investment Portfolio </h2>
+                        <p>What if your investment portfolio had a passionate team of people that could coach, mentor, train and consult to your teams.  A team that could connect all the people inside your investment ecosystem to leverage the power of connection.  We love working with investment ecosystems to support the ecosystem to maximize the return on investment for the fund by maximising the return on community within it.</p>
+                     </div>
+                     <div class="col-sm-12 noPad" id="second">
+                        <h2>Community</h2>
+                        <p>Sometimes the community is not an investment portfolio and instead there is a desire to improve a certain geographic community.  We support communities by mapping the community and connecting people as well as running events for the members of the community and coaching people and teams within the community.</p>
+                     </div>
+                     <div class="col-sm-12 noPad" id="third">
+                        <h2>Corporate Innovation</h2>
+                        <p>Inside any large corporate you will find amazingly talented and creative people that want to be entrepreneurial but can't seem to find the platform to get internal attention.  We work with corporates to identify entrepreneurial talent within the company and also create internal incubator programs to support the identification and realization of creativity and innovation from within.</p>
+                     </div>
+                  </div>
+               </div>
 
-     
-            <div class="row">
-  
-                <div class="col-sm-4 col-xs-6">
-                    <h3> Action </h3>
-                    <ul>
-                        <li> <a href="/resolution_generator"> Resolution Generator </a> </li>
-                        <li> <a href="/assessments"> Assessments </a> </li>
-                        <li> <a href="https://fingerprintforsuccess.com/"> Fingerprint4Success </a> </li>
+            </div>
+               
+               
+            
+            <div class="accordian-contain">
+               <div class="accordian-1">
+                  <button class="accordion">Section 1</button>
+                  <div class="panel">
+                     
                        
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                    <h3> More </h3>
-                    <ul>
-                        <li> <a href="/privacy"> Privacy </a> </li>
-                        <li> <a href="/terms"> Terms </a> </li>
-                        <li> <a href="/security"> Security </a> </li>
-                        <li> <a href="/contact"> Contact </a> </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-xs-12 ">
-                    <h3> Join Us </h3>
-                    <ul>
-                        <li>
-        <p><strong>Subscribe</strong></p>
-        <div id="mc_embed_signup">
-            <form  role="form" action="//roceteer.us8.list-manage.com/subscribe/post?u=ade70dfcde53a5da73843575d&amp;id=dfcc51fe0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_ade70dfcde53a5da73843575d_dfcc51fe0f" tabindex="-1" value=""></div>
-                    <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email"><button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info">Transcend Awesome</button>
-            </form>
-        </div>
-   
-                        </li>
-                    </ul>
-                    <ul class="social">
-                    
-                        <li> <a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter"></i> </a> </li>
-                                         
-                    </ul>
-                </div>
+                           <h2>BE THE BEST VERSION OF YOURSELF MORE OFTEN</h2>
+                           <p>We love working with entrepreneurial people who want to improve themselves, remove obstacles, achieve their goals and so have a greater impact as a leader in their teams and communities.</P>
+                           <div class="col-sm-12">
+                              <div class="col-sm-12" id="first">
+                                 <h2>MINDSET</h2>
+                                 <p>Everything starts with your mindset, what are you telling yourself, what are your beliefs? Are you hindering your own ability to flourish and be the best that you can be to truly self-actualize and leverage all your strengths?  As trained coaches and NLP practitioners we love asking the right questions to get to the heart of the matter and support your growth.</p>
+                              </div>
+                              <div class="col-sm-12" id="second">
+                                 <h2>ACTIONS</h2>
+                                 <p>We love supporting you to close that knowing-doing gap, where you intellectually know what to do and yet for some reason you do not act, you procrastinate.  We support you to leverage your strengths and abilities so that you can be a better leader and inspire action in others.</p>
+                              </div>
+                              <div class="col-sm-12" id="third">
+                                 <h2>IMPACT</h2>
+                                 <p>If you have the right mindset and also start to act appropriately you will create amazing impact for yourself and those around you.  We work with you to ensure that this happens and also that you celebrate it so that the actions are reinforced and it becomes a virtuous circle.  You achieve your goals, you are happy and this inspires a better mindset and more action leading to yet more results.</p>
+                              </div>
+                           </div>
+                       
+                     </div>
+                  </div>
+               
+               <div class="accordian-2">
+                  <button class="accordion">Section 2</button>
+                  <div class="panel">
+                     <h2>MAXIMIZE THE VALUE OF YOUR TEAM</h2>
+                     <p>We coach, mentor and train teams that are passionate about wanting to grow and make more impact in the world, we support them to guide strategy and direction; to raise funds; and to create happy and empowered team members</P>
+                     <div class="row">
+                        <div class="col-sm-12" id="first">
+                           <h2>Growth</h2>
+                           <p>We love working with teams that want to grow, to scale.  This is why we love working with entrepreneurs who want to change the world and create limitless possibilities.  Growth requires tenacity and hard work as well as a neverending desire to satisfy your customers known and  unknown desires through a great product and service with a consistent brand voice.</p>
+                        </div>
+                        <div class="col-sm-12" id="second">
+                           <h2>Strategy & Finance</h2>
+                           <p>We work with teams to support the development of their strategy and can also act as an additional set of analytical eyes looking at the numbers of the business.  Cash is the lifeblood of any business, understanding cash flow and successfully sourcing investment cash when required is crucial to any business.</p>
+                        </div>
+                        <div class="col-sm-12" id="third">
+                           <h2>Team & Operations</h2>
+                           <p>Every business is a people business, we hire people for our teams, we sell to people, we have people give us key resources, people are our investors.  We understand this and 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordian-3">
+                  <button class="accordion">Section 3</button>
+                  <div class="panel">
+                     <h2>MAXIMIZE THE IMPACT OF YOUR COMMUNITY</h2>
+                     <p>The thing we love the most is working with entrepreneurial communities whether they be an investment portfolio, progressive community or supporting intrapreneurs inside corporates.  At the community level we support the fabric of the community as well as the teams and individuals.</P>
+                     <div class="row">
+                        <div class="col-sm-12" id="first">
+                           <h2>Investment Portfolio </h2>
+                           <p>What if your investment portfolio had a passionate team of people that could coach, mentor, train and consult to your teams.  A team that could connect all the people inside your investment ecosystem to leverage the power of connection.  We love working with investment ecosystems to support the ecosystem to maximize the return on investment for the fund by maximising the return on community within it.</p>
+                        </div>
+                        <div class="col-sm-12" id="second">
+                           <h2>Community</h2>
+                           <p>Sometimes the community is not an investment portfolio and instead there is a desire to improve a certain geographic community.  We support communities by mapping the community and connecting people as well as running events for the members of the community and coaching people and teams within the community.</p>
+                        </div>
+                        <div class="col-sm-12" id="third">
+                           <h2>Corporate Innovation</h2>
+                           <p>Inside any large corporate you will find amazingly talented and creative people that want to be entrepreneurial but can't seem to find the platform to get internal attention.  We work with corporates to identify entrepreneurial talent within the company and also create internal incubator programs to support the identification and realization of creativity and innovation from within.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+         <div class="content-wrapper button">
+            <div class="content">
+               <a href="">BOOK SOME TIME WITH US</a>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="footer" id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4 col-xs-6">
+                  <h3> Action </h3>
+                  <ul>
+                     <li> <a href="/resolution_generator"> Resolution Generator </a> </li>
+                     <li> <a href="/assessments"> Assessments </a> </li>
+                     <li> <a href="https://fingerprintforsuccess.com/"> Fingerprint4Success </a> </li>
+                  </ul>
+               </div>
+               <div class="col-sm-4 col-xs-6">
+                  <h3> More </h3>
+                  <ul>
+                     <li> <a href="/privacy"> Privacy </a> </li>
+                     <li> <a href="/terms"> Terms </a> </li>
+                     <li> <a href="/security"> Security </a> </li>
+                     <li> <a href="/contact"> Contact </a> </li>
+                  </ul>
+               </div>
+               <div class="col-sm-4 col-xs-12 ">
+                  <h3> Join Us </h3>
+                  <ul>
+                     <li>
+                        <p><strong>Subscribe</strong></p>
+                        <div id="mc_embed_signup">
+                           <form  role="form" action="//roceteer.us8.list-manage.com/subscribe/post?u=ade70dfcde53a5da73843575d&amp;id=dfcc51fe0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                              <div id="mce-responses" class="clear">
+                                 <div class="response" id="mce-error-response" style="display:none"></div>
+                                 <div class="response" id="mce-success-response" style="display:none"></div>
+                              </div>
+                              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                              <div style="position: absolute; left: -5000px;"><input type="text" name="b_ade70dfcde53a5da73843575d_dfcc51fe0f" tabindex="-1" value=""></div>
+                              <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email"><button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info">Transcend Awesome</button>
+                           </form>
+                        </div>
+                     </li>
+                  </ul>
+                  <ul class="social">
+                     <li> <a href="https://twitter.com/ROCETEER_INC"><i class="fa fa-twitter"></i> </a> </li>
+                  </ul>
+               </div>
             </div>
             <!--/.row--> 
-        </div>
-        <!--/.container--> 
-    </div>
-    <!--/.footer-->
-    
-    <div class="footer-bottom">
-        <div class="container">
-            <p class="pull-left"> &copy; 2013<script>new Date().getFullYear()>2013&&document.write("-"+new Date().getFullYear());</script>, ROCeteer Inc. All right reserved. </p>
+         </div>
+         <!--/.container--> 
+      </div>
+      <!--/.footer-->
+      <div class="footer-bottom">
+         <div class="container">
+            <p class="pull-left">
+               &copy; 2013<script>new Date().getFullYear()>2013&&document.write("-"+new Date().getFullYear());</script>, ROCeteer Inc. All right reserved. 
+            </p>
             <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                    <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
+               <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                  <li><i class="fa fa-cc-mastercard"></i></li>
+                  <li><i class="fa fa-cc-amex"></i></li>
+                  <li><i class="fa fa-cc-paypal"></i></li>
+               </ul>
             </div>
-        </div>
-    </div>
-    <!--/.footer-bottom--> 
-
-          
-
-
-
-    <!--Content END-->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
+         </div>
+      </div>
+      <!--/.footer-bottom--> 
+      <!--Content END-->
+      <script src="assets/js/jquery-1.12.4.min.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   </body>
 </html>
