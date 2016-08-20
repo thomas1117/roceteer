@@ -60,7 +60,8 @@ function handleService() {
 		
 		var id = getQueryVariable('id');
 
-		if(id==1) {
+		if(id==1 || id===undefined) {
+			
 			$("#service-content-1").show();
 			$("#active-1").addClass('active');
 			$("#active-2").removeClass('active');
@@ -76,7 +77,7 @@ function handleService() {
 			$("#active-1").removeClass('active');
 			$("#active-3").removeClass('active');
 		}
-		else {
+		else if(id==3) {
 			$("#service-content-3").show();
 			
 			hideAndRemove("#service-content",1,2);

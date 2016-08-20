@@ -101,10 +101,6 @@ nav.navbar.navbar-default {
 }
 
 
-
- 
-
-
 .header.service {
     background-image: url(../imgs/bg_service.png);
 background-color: #F2F2F0;
@@ -247,12 +243,27 @@ background-color: #F2F2F0;
     font-family: Helvetica Neue Bold;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 700px) {
     .mission-text {
         position: relative!important;
         left:0;
-        top:-220px;
-        margin:auto;
+        top:-180px;
+        margin:auto!important;
+
+    }
+
+
+
+    .mission-control h3 {
+        text-align: center;
+    }
+
+    .mission-control h1 {
+        text-align: center;
+    }
+
+    .toggle {
+        display: block!important;
     }
 
     h3 span {
@@ -262,8 +273,7 @@ background-color: #F2F2F0;
     }
 
     .rw-words span {
-        padding-bottom: 25px;
-        color:#fff;
+        display: none;
     }
 
     .mission-body {
@@ -339,6 +349,7 @@ h3.grey {
     margin-right:0!important;
     padding-left:0!important;
     padding-right:0!important;
+    margin:auto!important;
 }
 
 .content {
@@ -367,17 +378,16 @@ h3.grey {
     
 }
 
-@media(max-width: 700px) {
+@media(max-width: 770px) {
     .content-img img {
         display: none!important;
 
     }
 
     .content-img h2 {
-        display: inline-block!important;
+        display: block!important;
         position: relative!important;
-        padding:0;
-        margin:0;
+        
     }
 
     .content-img h4 {
@@ -385,6 +395,19 @@ h3.grey {
         position: relative!important;
         padding: 0;
         margin:0;
+    }
+
+    .toggle {
+        color:#fff!important;
+    }
+
+    .content-img a {
+        display: block!important;
+        
+        color:#fff!important;
+
+        padding:5px;
+
     }
 }
 
@@ -440,7 +463,7 @@ h3.grey {
 
 .serve h2 {
     font-family: Helvetica Neue Bold;
-    color: #264C5B !important;
+    color: #264C5B;
 }
 
 .serve h4 {
