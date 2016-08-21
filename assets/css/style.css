@@ -25,6 +25,13 @@ nav.navbar.navbar-default {
     border: none;
     margin: 0;
     z-index: 999;
+    position: fixed;
+    width:100%;
+    top:0px;
+}
+
+body {
+    padding-top:105px;
 }
 
 .navbar .navbar-nav {
@@ -930,6 +937,7 @@ nav.navbar.navbar-default {
 
 
 @media(max-width: 800px) {
+
     .accordian-contain {
         display: block!important;
     }
@@ -937,6 +945,11 @@ nav.navbar.navbar-default {
     .content-normal-container {
     display: none!important;
 }
+
+.header-image-container {
+    display:none!important
+}
+
 
 .content-img img {
         display: none!important;
@@ -1016,7 +1029,8 @@ button.accordion {
     padding: 18px;
     width: 100%;
     text-align: center;
-    border: none;
+    border:none;
+    border-bottom:1px solid #f7f7f7;
     outline: none;
     transition: 0.4s;
 }
