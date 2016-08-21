@@ -422,6 +422,21 @@ h3.grey {
 
 }
 
+.dark {
+    background-color: #000;
+
+    width:100%;
+}
+
+.toggle {
+    left:0%;
+    width:100%;
+}
+
+.centerIt {
+    margin:auto;
+    width:100px;
+}
 .return {
         font-family: Helvetica Neue Bold;
     color: #264C5B;
@@ -430,9 +445,13 @@ h3.grey {
     margin-bottom: 40px;
 }
 
-.header-image-container {
-    background-color: #000;
+.return-info {
+    font-family: Helvetica Neue;
+    color: #264C5B;
+    text-align: center;
 }
+
+
 .serve:hover {
     opacity: 1 !important;
 }
@@ -567,7 +586,8 @@ a.learn-more h4 {
     background-color: #e12226;
     padding: 15px;
     border-radius: 4px;
-    
+    position: relative;
+    top:15px;
     transition: background-color 0.2s;
     -o-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
@@ -990,8 +1010,8 @@ nav.navbar.navbar-default {
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #264C5B;
+    color: #fff;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -1001,6 +1021,8 @@ button.accordion {
     transition: 0.4s;
 }
 
+
+
 .accordian-contain {
     background-color: #fff;
 }
@@ -1009,9 +1031,12 @@ button.accordion {
     margin:0;
 }
 
+
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #eee;
+    color:#666;
 }
 
 /* Style the accordion panel. Note: hidden by default */
