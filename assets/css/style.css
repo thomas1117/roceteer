@@ -187,6 +187,11 @@ background-color: #F2F2F0;
         width:100%;
     }
 
+    .button .content a {
+        padding-left:15!important;
+        padding-right:15!important;
+    }
+
 
 }
 
