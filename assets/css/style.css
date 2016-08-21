@@ -463,6 +463,12 @@ h3.grey {
     text-align: center;
 }
 
+.blog-link {
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
 .white {
     background-color: #fff
 }
@@ -929,9 +935,13 @@ height: 400px
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.footer-bottom p.pull-left {
+.footer-bottom p {
 	padding-top: 6px;
     color:#fff;
+}
+
+.copy-visa {
+    padding-top: 20px;
 }
 .payments {
 	font-size: 1.5em;	
