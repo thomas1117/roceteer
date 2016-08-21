@@ -30,8 +30,15 @@ nav.navbar.navbar-default {
     top:0px;
 }
 
+
+
 body {
     padding-top:105px;
+    background-color: #F2F2F0;
+}
+
+.titles {
+    font-size: 16px;
 }
 
 .navbar .navbar-nav {
@@ -118,14 +125,15 @@ height:100%;
 
 
 
-.crew h1 {
 
-    margin: 0;
+
+.meet-crew-head {
+    position: absolute;
+    left:0;
+    top:25px;
+    width:100%;
     font-family: Helvetica Neue Bold;
     color: #264C5B;
-    position: absolute;
-    top:0;
-
 }
 .crew {
 
@@ -448,14 +456,30 @@ h3.grey {
         font-family: Helvetica Neue Bold;
     color: #264C5B;
     text-align: center;
-    margin-top: 40;
-    margin-bottom: 40px;
+    padding-top: 40;
+    padding-bottom: 40px;
 }
 
 .return-info {
     font-family: Helvetica Neue;
     color: #264C5B;
     text-align: center;
+}
+
+.white {
+    background-color: #fff
+}
+
+@media(max-width: 600px) {
+    .image-container-service {
+        top:80px;
+        position: relative;
+    }
+
+    .image-container-transcend {
+        top:80px;
+        position: relative;
+    }
 }
 
 
@@ -942,6 +966,10 @@ nav.navbar.navbar-default {
         display: block!important;
     }
 
+    #outer-btn {
+        display: none;
+    }
+
     .content-normal-container {
     display: none!important;
 }
@@ -1013,6 +1041,10 @@ nav.navbar.navbar-default {
 
     .mission-body {
     background-color: #52ADCE!important;
+}
+
+body .crew-body {
+    background-color: #F2F2F0!important;
 }
 
 
