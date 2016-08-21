@@ -33,7 +33,7 @@ nav.navbar.navbar-default {
 
 
 body {
-    padding-top:105px;
+    padding-top:60px;
     background-color: #F2F2F0;
 }
 
@@ -65,7 +65,7 @@ body {
 @media (max-width: 800px) {
     
    .nav.navbar-nav li a {
-    font-size: 24px;
+    font-size: 16px;
     margin: 0 10px!important; 
 
     }
@@ -77,7 +77,7 @@ body {
 }
 .nav.navbar-nav li a {
     color: #A9B9BF;
-    margin: 0 40px;
+    margin: 0 32px;
     transition: color 0.2s;
     -o-transition: color 0.2s;
     -moz-transition: color 0.2s;
@@ -140,7 +140,7 @@ height:100%;
 background-color: #F2F2F0;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 640px) {
     .crew {
         padding-top: 110px;
     }
@@ -149,12 +149,23 @@ background-color: #F2F2F0;
         padding: 5px!important;
         border:none!important;
     }
+
+    form button {
+        width:100%;
+    }
+
+
 }
+
 
 .header.case-studies {
     background-image: url(../imgs/bg_189-case-studies.png);
 background-color: #F2F2F0;
 background-position: bottom;
+}
+
+#mce-EMAIL {
+    margin-bottom: 15px;
 }
 
 .header.transcend-awesome {
@@ -465,8 +476,8 @@ h3.grey {
 
 .blog-link {
 
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .white {
@@ -520,7 +531,7 @@ h3.grey {
 }
 
 .content-wrapper {
-    padding: 50px 15px;
+    padding: 60px 15px;
     background-color: #fff;
    
 }
@@ -692,6 +703,8 @@ background-color:#fff;
 }
 
 /*Media Queries*/
+
+
 @media only screen and (min-width: 768px) {
     a.navbar-brand {
         display: none;
@@ -700,11 +713,11 @@ background-color:#fff;
 
 @media only screen and (max-width: 768px) {
     .navbar-header {
-        margin-bottom: 25px;
+        margin-bottom: 0px;
     }
     
     .navbar.navbar-default {
-        padding: 15px 0 !important;
+        padding: 5px 0 !important;
     }
     
     .nav.navbar-nav li a.navbar-brand {
