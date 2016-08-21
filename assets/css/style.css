@@ -144,11 +144,13 @@ height:100%;
 .meet-crew-head {
     position: absolute;
     left:0;
-    top:25px;
+    top:55px;
     width:100%;
     font-family: Helvetica Neue Bold;
     color: #264C5B;
 }
+
+
 .crew {
 
 background-color: #F2F2F0;
