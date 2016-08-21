@@ -17,6 +17,12 @@
     background-color: #264c5b;
 }
 
+
+#accord {
+    position: absolute;
+    top:-60px;
+}
+
 nav.navbar.navbar-default {
     padding-top: 15px;
     padding-bottom: 30px;
@@ -670,6 +676,8 @@ a.learn-more h4 {
     color: #fff;
     background-color: #e12226;
     padding: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
     border-radius: 4px;
     position: relative;
     top:15px;
@@ -1023,6 +1031,7 @@ nav.navbar.navbar-default {
 
 .accordian-contain {
     display: none;
+    position: relative;
 }
 
 

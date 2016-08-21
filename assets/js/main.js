@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+	accordianShow();
+
+});
+
+
+function accordianShow() {
 	var acc = document.getElementsByClassName("accordion");
 	var i;
 
@@ -9,8 +15,7 @@ $(document).ready(function(){
 	        this.nextElementSibling.classList.toggle("show");
 	    }
 	}
-
-})
+}
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -35,7 +40,7 @@ function hideAndRemove(tag1,num1,num2) {
 
 function toggleActive(num) {
 		
-		
+
 
 		if(num===1) {
 			$("#content-1").show();
@@ -67,8 +72,13 @@ function toggleActive(num) {
 }
 
 function handleService() {
-		
+
+
 		var id = getQueryVariable('id');
+		var current = $(".accordian-" + id);
+		$(current).children('.accordian').toggleClass('active');
+		$(current).children('.panel').toggleClass('show');
+
 
 		if(id==1 || id===undefined) {
 
@@ -76,6 +86,7 @@ function handleService() {
 			$("#active-1").addClass('active');
 			$("#active-2").removeClass('active');
 			$("#active-3").removeClass('active');
+
 		}
 		else if(id==2) {
 			$("#service-content-2").show();
