@@ -139,15 +139,26 @@ height:100%;
 
 
 
-
-
 .meet-crew-head {
     position: absolute;
-    left:0;
+    left:30%;
     top:55px;
     width:100%;
     font-family: Helvetica Neue Bold;
     color: #264C5B;
+    font-size: 36px;
+}
+
+.transcend-head-text {
+    color: #264C5B;
+    position: absolute;
+    left:12%;
+}
+
+.service-head-text {
+    color: #264C5B;
+    position: absolute;
+    left:12%;
 }
 
 
@@ -1020,6 +1031,12 @@ nav.navbar.navbar-default {
         text-align: center;
 }
 
+.crew-header-text {
+    font-size: 36px;
+}
+
+
+
 @media(max-width: 800px) {
 
     .accordian-contain {
@@ -1072,9 +1089,7 @@ nav.navbar.navbar-default {
 
     }
 
-.crew-header-text {
-    font-size: 30px;
-}
+
 
 .meet-crew-head {
     font-size: 30px;
