@@ -536,6 +536,10 @@ h3.grey {
    
 }
 
+.crew-list {
+    padding-bottom: 20px;
+}
+
 .content-wrapper.line {
     border-bottom: 2px dashed #333;
 }
@@ -715,6 +719,8 @@ background-color:#fff;
     .navbar-header {
         margin-bottom: 0px;
     }
+
+
     
     .navbar.navbar-default {
         padding: 5px 0 !important;
@@ -874,6 +880,12 @@ height: 400px
 	margin-bottom: 0 !important;
 	padding-bottom: 0;
 }
+
+.newsletter-box input {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
 .newsletter-box input#appendedInputButton {
 	background: #FFFFFF;
 	display: inline-block;
@@ -978,7 +990,15 @@ nav.navbar.navbar-default {
 }
 
 
+.img-center {
+    margin:auto;
+}
 
+.question {
+        font-family: Helvetica Neue Bold;
+        color: #264C5B;
+        text-align: center;
+}
 
 @media(max-width: 800px) {
 
@@ -1027,14 +1047,22 @@ nav.navbar.navbar-default {
 .mission-text {
         position: relative!important;
         left:0;
-        top:-180px;
+        top:-188px;
         margin:auto!important;
 
     }
 
+.crew-header-text {
+    font-size: 30px;
+}
+
+.meet-crew-head {
+    font-size: 30px;
+}
+
     .mission-experience {
         position: relative;
-        top:100px;
+        top:50px;
     }
 
     .mission-control h3 {
@@ -1045,6 +1073,28 @@ nav.navbar.navbar-default {
         text-align: center;
     }
 
+    .select-area {
+        top:-20px;
+    }
+    
+    .question-transcend {
+        position: relative;
+        padding-top: 96px;
+    }
+    .question-mission {
+        top:-60px;
+
+    }
+
+    .crew-header-text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-header-text {
+        padding-top:40px;
+        padding-bottom: 20px;
+    }
     .toggle {
         display: none!important;
     }
@@ -1097,9 +1147,7 @@ button.accordion {
     margin:0;
 }
 
-.img-center {
-    margin:auto;
-}
+
 
 button.accordion.active, button.accordion:hover {
     background-color: #eee;
@@ -1117,9 +1165,8 @@ div.panel.show {
     display: block;
 }
 
-div.wpb_wrapper {
-    width:0;
-}
+
+
 
 
 
