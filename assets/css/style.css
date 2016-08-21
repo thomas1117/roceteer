@@ -114,6 +114,20 @@ body {
     margin:auto!important;
 }
 
+.action-phrase {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Helvetica Neue Bold;
+    color: #264C5B; 
+}
+
+.footer-invite {
+    color:#fff;
+    font-family: Helvetica Neue Bold;
+    font-size: 42px;
+
+}
+
 
 .header.service {
     background-image: url(../imgs/bg_service.png);
@@ -270,7 +284,7 @@ background-color: #F2F2F0;
 
 .mission-text {
     position: absolute;
-    top:20%;
+    top:12%;
     left:20%;
     width:80%;
     font-family: Helvetica Neue Bold;
@@ -307,6 +321,9 @@ background-color: #F2F2F0;
 .area-head {
     color:#fff;
     font-size: 24px;
+    font-family:Helvetica Neue;
+    padding-bottom: 22px;
+
 }
 
 .select-area {
@@ -461,8 +478,9 @@ h3.grey {
     width:100px;
 }
 .return {
-        font-family: Helvetica Neue Bold;
+    font-family: Helvetica Neue Bold;
     color: #264C5B;
+    font-size: 42px;
     text-align: center;
     padding-top: 40;
     padding-bottom: 40px;
